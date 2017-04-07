@@ -6,8 +6,10 @@ def load_data(filepath):
         data = json.load(my_file)
         return data
 
+
 def pretty_print_json(data):
     print(json.dumps(data, sort_keys=True, indent=4, separators=(',', ': ')))
+
 
 if __name__ == '__main__':
     print('Enter filepath to your database:')
